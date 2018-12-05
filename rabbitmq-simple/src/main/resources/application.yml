@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: 101.200.40.98
+    port: 5672
+    username: xfsy_2015@163.com
+    password: xfsy2018
+#    virtual-host: /
+#    listener:
+#      simple:
+#        concurrency: 10
+#        max-concurrency: 10
+#        prefetch: 1
+#        auto-startup: true
+#        default-requeue-rejected: true
+#    template:
+#      retry:
+#        enabled: true
+#        initial-interval: 1000
+#        max-attempts: 3
+#        max-interval: 10000
+#        multiplier: 1.0
